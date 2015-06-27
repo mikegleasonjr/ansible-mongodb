@@ -5,9 +5,10 @@ galaxy_info:
   license: BSD
   min_ansible_version: 1.2
   platforms:
-  - name: Ubuntu
-    - precise
-    - trusty
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
   categories:
     - database:nosql
 dependencies: []
