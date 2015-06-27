@@ -1,8 +1,8 @@
 ---
 - name: configure mongodb bind ip
-  lineinfile: dest=/etc/mongod.conf regexp="^  bindIp:.*$" line="  bindIp: {{ mongodb_bindIp }}" state=present
+  lineinfile: "dest=/etc/mongod.conf regexp='^  bindIp:.*$' line='  bindIp: {{ mongodb_bindIp }}' state=present"
   notify: restart mongodb
 
 - name: configure mongodb port
-  lineinfile: dest=/etc/mongod.conf regexp="^  port:.*$" line="  port: {{ mongodb_bindIp }}" state=present
+  lineinfile: "dest=/etc/mongod.conf regexp='^  port:.*$' line='  port: {{ mongodb_port }}' state=present"
   notify: restart mongodb
