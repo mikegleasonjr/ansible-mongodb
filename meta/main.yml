@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: Mike Gleason jr Couturier
+  description: A role that installs mongodb on ubuntu exactly as the steps depicted here http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+  license: BSD
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    - precise
+    - trusty
+  categories:
+    - database:nosql
+dependencies: []
