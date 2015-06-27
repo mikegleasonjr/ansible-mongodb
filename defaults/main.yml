@@ -1,4 +1,4 @@
 ---
 mongodb_version=3.0.4
 mongodb_bindIp=127.0.0.1
-mongodb_port=28017
+mongodb_port=27017
